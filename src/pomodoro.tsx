@@ -16,7 +16,7 @@ import { log } from 'console';
 
 
 function Pomodoro ()  {
-  const [minutes, setMinutes] = useState(25);
+  const [minutes, setMinutes] = useState(1);
   const [seconds, setSeconds] = useState(0);
   const [isActive, setIsActive] = useState(false);
   const [isStop,setStop]=useState(false);
@@ -62,7 +62,7 @@ function Pomodoro ()  {
 
   const resetTimer = () => {
     setIsActive(false);
-    setMinutes(25);
+    setMinutes(1);
     setSeconds(0);
   };
 
