@@ -31,3 +31,94 @@ h1{
   display: flex;
   justify-content: center;
 }
+
+
+
+
+circle {
+  display: block;
+  fill: transparent;
+  stroke: #64676b48;
+  stroke-linecap: round;
+  stroke-dasharray: 600;
+  stroke-dashoffset: 0;
+  stroke-width: 9px;
+  transform-origin: 50% 50%;
+  transform: rotate(-90deg);
+}
+
+.indicator {
+  stroke: #53b56f;
+  z-index: 2;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: #555;
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid; */
+  /* gap: 20px; */
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 1000px;
+  box-shadow:  3px 5px #8080806b;
+}
+
+.pomorodo{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  flex-direction: column;
+  filter: drop-shadow(0px px 30px #64676b57);
+  background-color: #e9ebee;
+  
+  gap: 10px;
+}
+
+.modal{
+  width: 300px;
+  height: 400px;
+  border-radius: 16px;
+
+}
+.modal h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s ease-in;
+}
+.popup-content{
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  position: relative;
+}
+.close-btn {
+  font-size: 30px!important;
+  position: absolute;
+  right: 10%;
+  cursor: pointer;
+}
+
+.logo{
+  width: 100%;
+  height: auto;
+}
