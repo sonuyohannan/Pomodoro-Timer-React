@@ -1,0 +1,33 @@
+.buttons-container {
+  font-size: 3.2em;
+  display: flex;
+  padding: 0 20px;
+  justify-content: center;
+}
+
+.buttons-container i {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ccc;
+}
+.buttons-container i:hover {
+  color: #4caf50;
+}
+
+.value-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5em !important;
+  font-weight: 500;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+}
